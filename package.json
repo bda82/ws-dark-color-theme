@@ -1,0 +1,21 @@
+{
+    "name": "ws-dark",
+    "displayName": "ws-dark",
+    "description": "websailors dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ws-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ws-dark-color-theme.json"
+            }
+        ]
+    }
+}
